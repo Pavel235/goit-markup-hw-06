@@ -154,13 +154,54 @@ ul {
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
-        to bottom, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url(../images/people-office.jpg);
+        to bottom, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url('../images/background-mobile.jpg');
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin:auto;
     }
+
+    @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+        .solutions {
+            background-image: linear-gradient(
+                to bottom, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url('../images/background@2x-mobile.jpg');
+        }
+    }
+
+@media screen and (min-width: 768px) {
+    .solutions {
+        background-image: linear-gradient(
+            to bottom, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url('../images/background-tablet.jpg');
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .solutions {
+        background-image: linear-gradient(
+            to bottom, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url('../images/background@2x-tablet.jpg');
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .solutions {
+        background-image: linear-gradient(
+            to bottom, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url('../images/people-office-desktop.jpg');
+        }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .solutions {
+        background-image: linear-gradient(
+            to bottom, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url('../images/people-office@2x-desktop.jpg');
+    }
+}
 
 .effect {
     font-family: 'Roboto', sans-serif;
