@@ -7,3 +7,8 @@
 
 /* LAYUOT */
 @import './layout/header.css';
+@import './layout/solutions.css';
+@import './layout/advantages.css';
+@import './layout/team.css';
+@import './layout/portfolio.css';
+@import './layout/footer.css'; 

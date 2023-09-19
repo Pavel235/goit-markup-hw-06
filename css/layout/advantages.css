@@ -1,0 +1,133 @@
+@media screen and (max-width: 767px) {
+    .advantages {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .advantages-icon {
+        display: none;
+    }  
+    
+    .advantages-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px; 
+    }
+
+    .advantages-head {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #2E2F42;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .advantages-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+        color:#434455;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .advantages {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .advantages-list-item {
+        max-width: 356px;
+    }
+
+    .advantages-list .advantages-list-item:first-child {
+        margin-bottom: 72px;
+    }
+
+    .advantages-icon {
+        display: none;
+    }  
+
+    .advantages-list {
+        display: flex;
+        gap: 24px; 
+        flex-wrap: wrap;
+    }
+
+    .advantages-head {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #2E2F42;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+
+    .advantages-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+        color:#434455;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+    }
+}
+
+
+@media screen and (min-width: 1158px) {
+.advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.advantages-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 24px; 
+    flex-wrap: nowrap;
+}
+
+.advantages-list-item {
+    width: calc((100%-72px)/4);
+}
+
+.advantages-head {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2E2F42;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.advantages-text {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color:#434455;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+} 
+
+}
+
