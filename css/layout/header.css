@@ -167,11 +167,13 @@
     font-size: 18px;
 }
 
-.site-head {
-    padding: 16px;
-}
-
 @media screen and (min-width: 768px) {
+
+    .site-head {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .mobile-menu {
         display: none;
     }
@@ -187,7 +189,7 @@
 
     .menu {
         display: flex;
-        gap: 40px; 
+        gap: 40px;
         margin-left: 120px;
     }
 
@@ -199,6 +201,7 @@
     }
 
     .contacts {
+        display: block;
         font-family: 'Roboto', sans-serif;
         line-height: 1.5;
         font-weight: 500;
@@ -289,9 +292,8 @@
 
 .menu {
     display: flex;
-    gap: 40px; 
-    margin-top: 24px;
-    margin-bottom: 24px;
+    gap: 40px;
+    margin-left: 0px;
 }
 
 .site {
@@ -300,6 +302,7 @@
 }
 
 .contacts {
+    display: block;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     font-weight: 500;
@@ -350,8 +353,7 @@
 .address-menu {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-left: 0px;
 }
 
 .contacts:hover {

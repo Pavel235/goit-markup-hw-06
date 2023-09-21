@@ -189,8 +189,6 @@
         flex-wrap: wrap;
         padding-top: 96px;
         padding-bottom: 96px;
-        padding-left: 108px;
-        padding-right: 164px;
     }
 
     .footer-text {
@@ -268,10 +266,6 @@
 
     .footer-icons {
         margin-left: 24px;
-    }
-
-    .footer-form-wrapper {
-        margin-top: 72px;
     }
 
     .subscribe-form-input {
