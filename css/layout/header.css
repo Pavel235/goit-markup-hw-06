@@ -3,7 +3,7 @@
         display: none;
     }
     
-    .address-menu {
+    .address-info {
         display: none;
     } 
 
@@ -156,6 +156,8 @@
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     font-weight: 700;
+    padding: 24px 0;
+    display: block;
     color: #4D5AE5;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -191,6 +193,10 @@
         display: flex;
         gap: 40px;
         margin-left: 120px;
+    }
+
+    .address-info {
+        display: block;
     }
 
     .address-menu {

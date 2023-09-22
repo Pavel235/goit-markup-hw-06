@@ -6,7 +6,7 @@
         color:#F4F4FD;
         font-size: 16px;
         letter-spacing: 0.02em;
-        max-width: 264px;
+        max-width: 288px;
         text-align: left;
         margin-bottom: 72px;
     }
@@ -96,6 +96,8 @@
 
     .footer-paragraph {
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer-icons {
@@ -229,6 +231,7 @@
     .footer-elements {
         display: flex;
         flex-wrap: wrap;
+        gap: 72px 24px; 
     }
 
     .list-media {
@@ -262,10 +265,6 @@
     
     .footer-media-icons {
         fill:#f4f4fd;
-    }
-
-    .footer-icons {
-        margin-left: 24px;
     }
 
     .subscribe-form-input {
